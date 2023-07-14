@@ -1,0 +1,160 @@
+The website will be built using HTML, CSS, and JavaScript. The core files will be:
+
+1. index.html: This is the home page of the website.
+2. about.html: This is the About Us page of the website.
+3. services.html: This is the Services page of the website.
+4. style.css: This file contains all the CSS styles for the website.
+5. script.js: This file contains all the JavaScript code for the website.
+
+Let's start with the entry point file, which is index.html.
+
+index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flux Design Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Unleash Your Brand's Potential with Flux Design Solutions</h1>
+        <p>At Flux Design Solutions, we specialize in creating unique and impactful brand identities. Let's get started on your journey to success.</p>
+        <button>Get Started</button>
+    </header>
+    <footer>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>© 2023 Flux Design Solutions</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+Next, let's move on to the about.html file.
+
+about.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Flux Design Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <p>Flux Design Solutions was founded in 2022 with the aim of helping businesses create a strong brand identity. We have since expanded our operations to the UK and continue to grow.</p>
+        <h2>Our Team</h2>
+        <ul>
+            <li>Bilal - CEO</li>
+            <li>Basit - COO</li>
+            <li>Asad - CFO</li>
+            <li>Jhon - Sales Executive</li>
+            <li>James - Lead Designer</li>
+        </ul>
+        <h2>Mission and Vision</h2>
+        <p>Our mission is to provide high-quality design solutions that help businesses stand out. Our vision is to be a leading design agency recognized for creativity and innovation.</p>
+    </header>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>© 2023 Flux Design Solutions</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+Next, let's move on to the services.html file.
+
+services.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Flux Design Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <p>At Flux Design Solutions, we focus on logo design services. We offer three packages to cater to different needs and budgets.</p>
+        <h2>Basic Package</h2>
+        <p>Includes 2 logo design concepts, 2 revisions, and delivery in JPG and PNG formats. Price: $100</p>
+        <h2>Standard Package</h2>
+        <p>Includes 3 logo design concepts, unlimited revisions, delivery in JPG, PNG, and source file formats, and a business card design. Price: $300</p>
+        <h2>Premium Package</h2>
+        <p>Includes 5 logo design concepts, unlimited revisions, delivery in all file formats, business card design, and a social media kit. Price: $1000</p>
+    </header>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>© 2023 Flux Design Solutions</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+Next, let's move on to the style.css file.
+
+style.css
+```css
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+```
+
+Finally, let's move on to the script.js file. This file is currently empty as there is no JavaScript functionality specified for the website.
+
+script.js
+```javascript
+// JavaScript code goes here
+```
+
+This is a basic implementation of the website. It can be further enhanced with more CSS styles, images, and JavaScript functionality.
